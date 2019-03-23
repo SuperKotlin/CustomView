@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="CustomTextView">
+
+        <!--文字-->
+        <attr name="ct_text" format="string" />
+        <!--文字大小-->
+        <attr name="ct_textSize" format="dimension" />
+        <!--文字颜色-->
+        <attr name="ct_textColor" format="color" />
+
+        <!--矩形框之间的间隔宽度-->
+        <attr name="ct_rect_divider" format="dimension" />
+        <!--矩形框的宽度-->
+        <attr name="ct_rect_width" format="dimension" />
+        <!--矩形框的高度-->
+        <attr name="ct_rect_height" format="dimension" />
+        <!--矩形框的背景颜色-->
+        <attr name="ct_rect_background_color" format="color" />
+        <!--矩形框的圆角-->
+        <attr name="ct_rect_radius" format="dimension" />
+        <!--边框颜色-->
+        <attr name="ct_rect_line_color" format="color" />
+        <!--边框宽度-->
+        <attr name="ct_rect_line_width" format="dimension" />
+
+    </declare-styleable>
+
+</resources>
